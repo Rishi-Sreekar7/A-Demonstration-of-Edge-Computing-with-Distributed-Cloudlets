@@ -10,11 +10,12 @@ Requirements
 	•	Administrative privileges (sudo) on each host.
 	•	qemu-kvm, libvirt-bin, virtinst, and bridge-utils installed on all hosts.
 
-Setup
+**Setup**
 
-Install and Configure KVM and Libvirt
-	1.	Update system packages (on each host):
-
+**Install and Configure KVM and Libvirt
+**	
+**1.	Update system packages (on each host):
+**
 sudo apt-get update
 sudo apt-get install -y qemu-kvm libvirt-bin virtinst bridge-utils
 
@@ -22,8 +23,9 @@ sudo apt-get install -y qemu-kvm libvirt-bin virtinst bridge-utils
 sudo systemctl enable libvirtd
 sudo systemctl start libvirtd
 
-	3.	Configure libvirt to listen for TCP connections (on each host):
-	•	Edit /etc/libvirt/libvirtd.conf and ensure the following lines are set:
+3.	Configure libvirt to listen for TCP connections (on each host):
+Edit /etc/libvirt/libvirtd.conf and ensure the following lines are set:
+
 listen_tls = 0
 listen_tcp = 1
 auth_tcp = "none"
