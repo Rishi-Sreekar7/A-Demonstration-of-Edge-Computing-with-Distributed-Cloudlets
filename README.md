@@ -12,10 +12,10 @@ Requirements
 
 **Setup**
 
-**Install and Configure KVM and Libvirt
-**	
-**1.	Update system packages (on each host):
-**
+Install and Configure KVM and Libvirt
+	
+1.	Update system packages (on each host):
+
 sudo apt-get update
 sudo apt-get install -y qemu-kvm libvirt-bin virtinst bridge-utils
 
