@@ -1,5 +1,5 @@
-#Rishi Sreekar rcheb001
-#Kush Ise kise001
+# Rishi Sreekar rcheb001
+# Kush Ise kise001
 # A-Demonstration-of-Edge-Computing-with-Distributed-Cloudlets
 
 Live migration allows you to move a running VM from one KVM host to another with minimal downtime. This is useful in scenarios like:
